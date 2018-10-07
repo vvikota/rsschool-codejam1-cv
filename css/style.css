@@ -1,8 +1,13 @@
 body{
+  font-family: 'Cuprum', sans-serif;
   width: 1024px;
   margin: 50px auto;
-  border: 3px solid black
+  border: 3px solid black;
+}
 
+h1{
+  font-size: 2em;
+  margin-top: 5px;
 }
 
 header{
