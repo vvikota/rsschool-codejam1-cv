@@ -3,11 +3,16 @@ body{
   width: 1024px;
   margin: 50px auto;
   border: 3px solid black;
+  border-radius: 5px;
 }
 
 h1{
   font-size: 2em;
   margin-top: 5px;
+}
+
+h2{
+  margin-bottom: 5px;
 }
 
 header{
@@ -25,8 +30,8 @@ header{
   border-radius: 5px;
 }
 
-.contacts{
-
+.contact-list{
+   margin-left: -10px;
 }
 
 main{
@@ -38,4 +43,10 @@ main{
 .summary,
 .skills{
   margin: 25px 50px;
+}
+
+.summary-text,
+.skills-text{
+  margin-left: 15px;
+  margin-top: 5px;
 }
