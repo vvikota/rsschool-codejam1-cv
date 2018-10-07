@@ -1,23 +1,36 @@
 body{
   width: 1024px;
-  margin: 0 auto;
-  border: 3px solid black;
+  margin: 50px auto;
+  border: 3px solid black
+
 }
 
 header{
   margin-top: 50px;
+  margin-left: 150px;
   display: flex;
 }
 
 .photo{
-  width: 250px;
-  border: 3px solid red;
+  width: 180px;
+
+}
+
+.main-photo{
+  border-radius: 5px;
 }
 
 .contacts{
-  border: 3px solid green;
+
 }
 
-.main{
-  border: 5px solid yellow;
+main{
+  margin-bottom: 50px;
+
+}
+
+
+.summary,
+.skills{
+  margin: 25px 50px;
 }
